@@ -1,9 +1,9 @@
 {
-  "name": "nextjs-with-styled-components",
+  "name": "gindee",
   "version": "1.0.0",
-  "description": "NextJS with Styled Components",
+  "description": "Gindee Application Landing Page",
   "main": "index.js",
-  "repository": "git@github.com:kiroskirin/nextjs-with-styled-components.git",
+  "repository": "git@github.com:kiroskirin/gindee.git",
   "author": "kiroskirin",
   "license": "MIT",
   "scripts": {
