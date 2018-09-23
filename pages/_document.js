@@ -41,6 +41,7 @@ export default class MyCustomDocument extends Document {
           />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+          <meta http-equiv="Expires" content="30" />
           {this.props.styleTags}
         </Head>
         <body>
