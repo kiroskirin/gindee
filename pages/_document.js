@@ -34,7 +34,7 @@ export default class MyCustomDocument extends Document {
     return (
       <html>
         <Head>
-          <title>NextJS with Styled Components</title>
+          <title>Gindee Application</title>
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width, user-scalable=no, minimal-ui"
