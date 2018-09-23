@@ -25,7 +25,7 @@ const Title = styled.h3`
 const Index = () => (
   <ContentWrapper>
     <ContentContainer>
-      <Image src="/static/assets/react-icon.svg" />
+      <Image src="static/assets/react-icon.svg" />
       <Title>Hello Next.js</Title>
     </ContentContainer>
   </ContentWrapper>
