@@ -7,7 +7,8 @@
   "author": "kiroskirin",
   "license": "MIT",
   "scripts": {
-    "dev": "next",
+    "css-build": "node-sass --omit-source-map-url static/styles/index.scss static/styles/styles.css --watch",
+    "dev": "next && css-build",
     "build": "next build",
     "start": "next start",
     "export": "next export",
@@ -21,6 +22,8 @@
     "styled-components": "^3.4.9"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^1.7.1"
+    "babel-plugin-styled-components": "^1.7.1",
+    "bulma": "^0.7.1",
+    "node-sass": "^4.9.3"
   }
 }
