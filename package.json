@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "css-build": "node-sass --omit-source-map-url static/styles/index.scss static/styles/styles.css --watch",
-    "dev": "next && css-build",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
     "export": "next export",
