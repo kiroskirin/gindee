@@ -5368,53 +5368,165 @@ __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _src_components_bulma_Columns__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/components/bulma/Columns */ "./src/components/bulma/Columns.js");
+/* harmony import */ var _src_components_bulma_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/components/bulma/Container */ "./src/components/bulma/Container.js");
+/* harmony import */ var _src_components_Credit__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/components/Credit */ "./src/components/Credit.js");
 var _jsxFileName = "/Users/kiroskirin/Sites/Works/Labs62/Gindee/pages/index.js";
+
+
+
 
 
 var ContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "pages__ContentWrapper",
   componentId: "tqx1xt-0"
-})(["display:flex;align-items:center;justify-content:center;"]);
-var ContentContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
-  displayName: "pages__ContentContainer",
+})([""]);
+var AppIcon = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.withConfig({
+  displayName: "pages__AppIcon",
   componentId: "tqx1xt-1"
-})(["display:flex;flex-direction:column;align-items:center;width:150px;"]);
-var Image = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.withConfig({
-  displayName: "pages__Image",
+})(["border-radius:16px;width:80px;"]);
+var SubTitle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h3.withConfig({
+  displayName: "pages__SubTitle",
   componentId: "tqx1xt-2"
-})(["margin:8px;"]);
-var Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h3.withConfig({
+})(["padding:0;margin:8px 0;font-weight:500;"]);
+var Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1.withConfig({
   displayName: "pages__Title",
   componentId: "tqx1xt-3"
-})(["color:tomato;"]);
+})(["color:#53d769;padding:0;margin:10px 0;"]);
+var Description = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p.withConfig({
+  displayName: "pages__Description",
+  componentId: "tqx1xt-4"
+})(["line-height:1.7rem;margin:0;font-weight:300;"]);
+var MockImage = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.withConfig({
+  displayName: "pages__MockImage",
+  componentId: "tqx1xt-5"
+})(["width:320px;"]);
+var DownloadContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "pages__DownloadContainer",
+  componentId: "tqx1xt-6"
+})([""]);
+var DownloadImage = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.withConfig({
+  displayName: "pages__DownloadImage",
+  componentId: "tqx1xt-7"
+})(["width:150px;"]);
+var Link = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withConfig({
+  displayName: "pages__Link",
+  componentId: "tqx1xt-8"
+})(["display:inline-block;vertical-align:top;margin:20px 0;"]);
 
 var Index = function Index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContentWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 51
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContentContainer, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_bulma_Container__WEBPACK_IMPORTED_MODULE_3__["BmContainer"], {
+    options: "is-fullwidth",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 52
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Image, {
-    src: "static/assets/react-icon.svg",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_bulma_Columns__WEBPACK_IMPORTED_MODULE_2__["Columns"], {
+    options: "is-vcentered",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 53
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_bulma_Columns__WEBPACK_IMPORTED_MODULE_2__["Column"], {
+    options: "has-text-centered",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MockImage, {
+    src: "static/assets/mock.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_bulma_Columns__WEBPACK_IMPORTED_MODULE_2__["Column"], {
+    options: "has-text-centered has-text-left-tablet",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubTitle, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, "Random Dished Helper."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AppIcon, {
+    src: "static/app-icons/icon@3x.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 60
     },
     __self: this
-  }, "Hello Next.js")));
+  }, "Gindee"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Description, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, "When you have no idea what to eat or where to eat. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }), "Its easier to get some help. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }), "This application will help you decide by random some dishes that are added by other users. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }), "That mean you can explore new dishes and place that other people love to eat."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(DownloadContainer, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Link, {
+    href: "https://itunes.apple.com/au/app/gindee/id1159732705?mt=8",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(DownloadImage, {
+    src: "static/assets/download.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_Credit__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  })))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
@@ -5437,6 +5549,160 @@ var Index = function Index() {
     })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/components/Credit.js":
+/*!**********************************!*\
+  !*** ./src/components/Credit.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Credit; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/Users/kiroskirin/Sites/Works/Labs62/Gindee/src/components/Credit.js";
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+var Container = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "Credit__Container",
+  componentId: "h38v50-0"
+})([""]);
+var Logo = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.withConfig({
+  displayName: "Credit__Logo",
+  componentId: "h38v50-1"
+})(["height:30px;"]);
+
+var Credit =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Credit, _Component);
+
+  function Credit() {
+    _classCallCheck(this, Credit);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Credit).apply(this, arguments));
+  }
+
+  _createClass(Credit, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Logo, {
+        src: "static/assets/Logo.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }));
+    }
+  }]);
+
+  return Credit;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+
+
+/***/ }),
+
+/***/ "./src/components/bulma/Columns.js":
+/*!*****************************************!*\
+  !*** ./src/components/bulma/Columns.js ***!
+  \*****************************************/
+/*! exports provided: Columns, Column */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Columns", function() { return Columns; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Column", function() { return Column; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/kiroskirin/Sites/Works/Labs62/Gindee/src/components/bulma/Columns.js";
+
+var Columns = function Columns(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns ".concat(props.options),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, props.children);
+};
+var Column = function Column(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column ".concat(props.options),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, props.children);
+};
+
+/***/ }),
+
+/***/ "./src/components/bulma/Container.js":
+/*!*******************************************!*\
+  !*** ./src/components/bulma/Container.js ***!
+  \*******************************************/
+/*! exports provided: BmContainer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BmContainer", function() { return BmContainer; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/kiroskirin/Sites/Works/Labs62/Gindee/src/components/bulma/Container.js";
+
+var BmContainer = function BmContainer(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "section",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container ".concat(props.options),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, props.children));
+};
 
 /***/ }),
 
