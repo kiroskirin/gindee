@@ -5450,7 +5450,7 @@ var Index = function Index() {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_bulma_Columns__WEBPACK_IMPORTED_MODULE_2__["Column"], {
-    options: "has-text-centered has-text-left-tablet",
+    options: "is-two-thirds has-text-centered has-text-left-tablet",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 57
