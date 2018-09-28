@@ -5413,96 +5413,129 @@ var Link = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withConfi
   displayName: "pages__Link",
   componentId: "tqx1xt-8"
 })(["display:inline-block;vertical-align:top;margin:20px 0;"]);
+var Video = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].video.withConfig({
+  displayName: "pages__Video",
+  componentId: "tqx1xt-9"
+})(["padding:50px;@media only screen and (min-device-width:320px) and (max-device-width:568px) and (-webkit-min-device-pixel-ratio:2) and (orientation:portrait){padding:45px;}@media only screen and (min-device-width:375px) and (max-device-width:667px) and (-webkit-min-device-pixel-ratio:2) and (orientation:portrait){padding:50px;}@media only screen and (min-device-width:414px) and (max-device-width:736px) and (-webkit-min-device-pixel-ratio:3) and (orientation:portrait){padding:60px !important;}@media only screen and (min-device-width:375px) and (max-device-width:812px) and (-webkit-min-device-pixel-ratio:3) and (orientation:portrait){padding:54px;}@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2){padding:125px;}@media only screen and (min-device-width:1024px) and (max-device-width:1024px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2){padding:52px;}"]);
+var VideoContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "pages__VideoContainer",
+  componentId: "tqx1xt-10"
+})(["background:", " center no-repeat;background-size:contain;"], "url('static/assets/mock.png')");
 
 var Index = function Index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContentWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 89
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_bulma_Container__WEBPACK_IMPORTED_MODULE_3__["BmContainer"], {
     options: "is-fullwidth",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 90
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_bulma_Columns__WEBPACK_IMPORTED_MODULE_2__["Columns"], {
     options: "is-vcentered",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 91
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_bulma_Columns__WEBPACK_IMPORTED_MODULE_2__["Column"], {
     options: "has-text-centered",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 92
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MockImage, {
-    src: "static/assets/mock.png",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(VideoContainer, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 93
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_bulma_Columns__WEBPACK_IMPORTED_MODULE_2__["Column"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Video, {
+    autoPlay: true,
+    loop: true,
+    muted: true,
+    playsInline: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
+    src: "static/video.webm",
+    type: "video/webm",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
+    src: "static/video.mp4",
+    type: "video/mp4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_bulma_Columns__WEBPACK_IMPORTED_MODULE_2__["Column"], {
     options: "is-two-thirds has-text-centered has-text-left-tablet",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 100
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubTitle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 101
     },
     __self: this
   }, "Random Dished Helper."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AppIcon, {
     src: "static/app-icons/icon@3x.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 102
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 103
     },
     __self: this
   }, "Gindee"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Description, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 104
     },
     __self: this
   }, "When you have no idea what to eat or where to eat. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 105
     },
     __self: this
   }), "Its easier to get some help. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 106
     },
     __self: this
   }), "This application will help you decide by random some dishes that are added by other users. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 108
     },
     __self: this
   }), "That mean you can explore new dishes and place that other people love to eat."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(DownloadContainer, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 112
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Link, {
@@ -5510,20 +5543,20 @@ var Index = function Index() {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 113
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(DownloadImage, {
     src: "static/assets/download.svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 117
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_Credit__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 120
     },
     __self: this
   })))));
