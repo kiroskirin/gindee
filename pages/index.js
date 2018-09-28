@@ -54,7 +54,7 @@ const Index = () => (
         <Column options="has-text-centered">
           <MockImage src="static/assets/mock.png" />
         </Column>
-        <Column options="has-text-centered has-text-left-tablet">
+        <Column options="is-two-thirds has-text-centered has-text-left-tablet">
           <SubTitle>Random Dished Helper.</SubTitle>
           <AppIcon src="static/app-icons/icon@3x.png" />
           <Title>Gindee</Title>
