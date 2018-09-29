@@ -5467,16 +5467,16 @@ var Index = function Index() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
-    src: "static/video.webm",
-    type: "video/webm",
+    src: "static/video.mp4",
+    type: "video/mp4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 95
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
-    src: "static/video.mp4",
-    type: "video/mp4",
+    src: "static/video.webm",
+    type: "video/webm",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 96
