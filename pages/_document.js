@@ -45,6 +45,7 @@ export default class MyCustomDocument extends Document {
             name="google-site-verification"
             content="S-geyw_hxynJS9X2MgKUnaL1He8LqN8MNktj7anU2nU"
           />
+          <meta property="fb:app_id" content="315539595564827" />
           <meta
             property="og:url"
             content="https://kiroskirin.github.io/gindee/"
@@ -60,7 +61,7 @@ export default class MyCustomDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://kiroskirin.github.io/gindee/static/app-icons/icon@3x.png"
+            content="https://kiroskirin.github.io/gindee/static/spin.png"
           />
           <meta
             property="og:video"
