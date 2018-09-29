@@ -34,7 +34,17 @@ export default class MyCustomDocument extends Document {
     return (
       <html lang="en">
         <Head>
-          <title>Gindee Application</title>
+          <title>
+            Gindee - Random Dishes Helper, Discover New Dishes, What To Eat
+          </title>
+          <meta
+            name="description"
+            content="When you have no idea what to eat or where to eat. Its easier to get some help. This application will help you decide by random some dishes that are added by other users. That mean you can explore new dishes and place that other people love to eat."
+          />
+          <meta
+            name="google-site-verification"
+            content="S-geyw_hxynJS9X2MgKUnaL1He8LqN8MNktj7anU2nU"
+          />
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width, user-scalable=no, minimal-ui"
@@ -42,8 +52,17 @@ export default class MyCustomDocument extends Document {
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-status-bar-style" content="black" />
           <meta httpEquiv="Expires" content="30" />
-          <link rel="stylesheet" type="text/css" href="static/styles/styles.min.css" media="all" />
-          <link rel='shortcut icon' type='image/x-icon' href='static/app-icons/favicon.ico' />
+          <link
+            rel="stylesheet"
+            type="text/css"
+            href="static/styles/styles.min.css"
+            media="all"
+          />
+          <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="static/app-icons/favicon.ico"
+          />
           <link
             rel="apple-touch-icon"
             sizes="57x57"
@@ -115,7 +134,10 @@ export default class MyCustomDocument extends Document {
           />
           <link rel="manifest" href="static/app-icons/manifest.json" />
           <meta name="msapplication-TileColor" content="#ffffff" />
-          <meta name="msapplication-TileImage" content="static/app-icons/ms-icon-144x144.png" />
+          <meta
+            name="msapplication-TileImage"
+            content="static/app-icons/ms-icon-144x144.png"
+          />
           <meta name="theme-color" content="#ffffff" />
           {this.props.styleTags}
         </Head>
