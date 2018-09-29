@@ -35,7 +35,7 @@ export default class MyCustomDocument extends Document {
       <html lang="en">
         <Head>
           <title>
-            Gindee - Random Dishes Helper, Discover New Dishes, What To Eat
+            Gindee - Random Dishes Helper, Discover New Dishes, What to Eat
           </title>
           <meta
             name="description"
@@ -44,6 +44,27 @@ export default class MyCustomDocument extends Document {
           <meta
             name="google-site-verification"
             content="S-geyw_hxynJS9X2MgKUnaL1He8LqN8MNktj7anU2nU"
+          />
+          <meta
+            property="og:url"
+            content="https://kiroskirin.github.io/gindee/"
+          />
+          <meta property="og:type" content="website" />
+          <meta
+            property="og:title"
+            content="Gindee - Random Dishes Helper, Discover New Dishes, What to Eat"
+          />
+          <meta
+            property="og:description"
+            content="When you have no idea what to eat or where to eat. Its easier to get some help. This application will help you decide by random some dishes that are added by other users. That mean you can explore new dishes and place that other people love to eat."
+          />
+          <meta
+            property="og:image"
+            content="https://kiroskirin.github.io/gindee/static/app-icons/icon@3x.png"
+          />
+          <meta
+            property="og:video"
+            content="https://kiroskirin.github.io/gindee/static/video.mp4"
           />
           <meta
             name="viewport"
