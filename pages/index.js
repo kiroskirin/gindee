@@ -6,7 +6,9 @@ import { BmContainer } from '../src/components/bulma/Container';
 
 import Credit from '../src/components/Credit';
 
-const ContentWrapper = styled.div``;
+const ContentWrapper = styled.div`
+  padding: 0;
+`;
 
 const AppIcon = styled.img`
   border-radius: 16px;
@@ -31,11 +33,9 @@ const Description = styled.p`
   font-weight: 300;
 `;
 
-const MockImage = styled.img`
-  width: 320px;
+const DownloadContainer = styled.div`
+  padding: 0;
 `;
-
-const DownloadContainer = styled.div``;
 
 const DownloadImage = styled.img`
   width: 150px;
