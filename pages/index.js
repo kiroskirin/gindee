@@ -92,8 +92,8 @@ const Index = () => (
         <Column options="has-text-centered">
           <VideoContainer>
             <Video autoPlay loop muted playsInline>
-              <source src="static/video.webm" type="video/webm" />
               <source src="static/video.mp4" type="video/mp4" />
+              <source src="static/video.webm" type="video/webm" />
             </Video>
           </VideoContainer>
         </Column>
