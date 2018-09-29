@@ -42,7 +42,7 @@ export default class MyCustomDocument extends Document {
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-status-bar-style" content="black" />
           <meta httpEquiv="Expires" content="30" />
-          <link rel="stylesheet" href="static/styles/styles.css" />
+          <link rel="stylesheet" type="text/css" href="static/styles/styles.min.css" media="all" />
           <link rel='shortcut icon' type='image/x-icon' href='static/app-icons/favicon.ico' />
           <link
             rel="apple-touch-icon"

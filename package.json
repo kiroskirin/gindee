@@ -7,7 +7,7 @@
   "author": "kiroskirin",
   "license": "MIT",
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url static/styles/index.scss static/styles/styles.css --watch",
+    "css-build": "node-sass --omit-source-map-url static/styles/index.scss static/styles/styles.min.css --watch --output-style compressed",
     "dev": "next",
     "build": "next build",
     "start": "next start",
